@@ -1,83 +1,49 @@
 <!DOCTYPE html>
-<html>
-  <header>
-    <h1>Student Registration System</h1>
-  </header>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Prick</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-  <nav>
-    <a href="#">Home</a>
-    <label> | </label>
-    <a href="#">Register</a>
-    <label> | </label>
-    <a href="#">Contact</a>
-  </nav>
 
-  <main>
-    <section>
-      <form>
-        <label>Student Name: </label><br>
-        <input type="text" name="fullname"><br>
+    <header>
+        <h1>Prick</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <label>Email: </label><br>
-        <input type="email" name="email"><br><br>
+    <main class="grid-container">
+        <section class="intro">
+            <h2>Hello, I'm Prick</h2>
+            <p>I am a web developer and software designer focused on educational environments and digital branding.</p>
+        </section>
 
-        <label>Course: </label><br>
-        <select>
-          <option> BS IN COMPUTER SCIENCE</option>
-          <option> BS IN INFORMATION TECHNOLOGY</option>
-          <option> BS IN COMPUTER ENGINEERING</option>
-          <option> BS IN ACCOUNTANCY</option>
-          <option> BS IN BUSINESS ADMINISTRATION</option>
-          <option> BS IN CIVIL ENGINEERING</option>
-          <option> BS IN NURSING</option>
-        </select><br><br>
+        <section class="cards-section">
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>Creating functional student portals and management systems using HTML and CSS.</p>
+            </div>
+            <div class="card">
+                <h3>Graphic Design</h3>
+                <p>Specializing in brand identity, food photography assets, and Japanese-themed marketing.</p>
+            </div>
+            <div class="card">
+                <h3>Digital Art</h3>
+                <p>Developing hyper-realistic AI prompts for commercial and fantasy-themed illustrations.</p>
+            </div>
+        </section>
+    </main>
 
-        <button type="submit">SUBMIT</button>
-        
-      </form>
-    </section>
+    <footer>
+        <p>&copy; 2026 Created by: Prick</p>
+    </footer>
 
-    <section>
-      <h3> Registered Students: </h3>
-      <table border="2">
-        
-        <tr>
-          <th>Name</th>
-          <th>Course</th>
-          <th>Year Level</th>
-        </tr>
-        
-        <tr>
-          <th>Mar Andrei Palisoc</th>
-          <th>BS IN COMPUTER SCIENCE</th>
-          <th>1st Year College</th>
-        </tr>
-        
-        <tr>
-          <th>Carlo Torres</th>
-          <th>BS IN NURSING</th>
-          <th>1st Year College</th>
-        </tr>
-        
-        <tr>
-          <th>Jelyn Ann Amparan</th>
-          <th>BS IN PSYCHOLOGY</th>
-          <th>1st Year College</th>
-        </tr>
-        
-        <tr>
-          <th>Wendell Duka</th>
-          <th>BS IN INFORMATION TECHNOLOGY</th>
-          <th>1st Year College</th>
-        </tr>
-        
-      </table>
-    </section>
-  </main>
-
-  <footer>
-    <p>Website Created by: Prick 2026</p>
-  </footer>
 </body>
 </html>
