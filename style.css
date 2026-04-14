@@ -1,15 +1,15 @@
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Times new roman;
     margin: 0;
     padding: 0;
-    background-color: light blue; 
-    color: purple;
+    background-color: Yellow; 
+    color: Blue;
 }
 
-head {
+header {
     color: Purple;
-    font-family: Times New Roman;
+    font-family: Times New Roman;    
 }
 
 .nav a {
@@ -56,5 +56,5 @@ head {
 footer {
     text-align: center;
     padding: 20px;
-    color: white;
+    color: Black;
 }
