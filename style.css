@@ -7,6 +7,11 @@ body {
     color: #333;
 }
 
+head {
+    color: Purple;
+    font-family: Times New Roman;
+}
+
 header {
     background-color: dark blue;
     color: white;
@@ -14,7 +19,7 @@ header {
 }
 
 
-.nav-links {
+.nav a {
     display: flex;
     justify-content: center; 
     gap: 20px; 
