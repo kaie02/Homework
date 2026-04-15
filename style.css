@@ -3,12 +3,12 @@ body {
     font-family: Times New Roman;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1d; 
-    color: #c8d6e5;
+    background-color: #faf9f6; 
+    color: #4a4a4a;
 }
 
 h1 {
-    color: #c8d6e5;
+    color: #e74c3c;
     font-family: Times New Roman;
     text-align: center;
 }
@@ -42,7 +42,7 @@ nav a {
 }
 
 .card {
-    background: #252529;
+    background: #ffffff;
     padding: 20px;
     border-radius: 8px; 
     border: 1px solid #eee; 
@@ -64,5 +64,5 @@ nav a {
 footer {
     text-align: center;
     padding: 20px;
-    color: #c8d6e5;
+    color: White;
 }
