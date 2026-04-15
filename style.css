@@ -3,8 +3,8 @@ body {
     font-family: Times New Roman;
     margin: 0;
     padding: 0;
-    background-color: Light Gray; 
-    color: #2c3e50;
+    background-color: #1a1a1d; 
+    color: #c8d6e5;
 }
 
 h1 {
@@ -42,7 +42,7 @@ nav a {
 }
 
 .card {
-    background: white;
+    background: #252529;
     padding: 20px;
     border-radius: 8px; 
     border: 1px solid #eee; 
@@ -51,7 +51,7 @@ nav a {
 }
 
 .li {
-    color: #2980b9;
+    color: #54a0ff;
 }
 
 
