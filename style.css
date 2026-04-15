@@ -3,8 +3,8 @@ body {
     font-family: Times New Roman;
     margin: 0;
     padding: 0;
-    background-color: Neon White; 
-    color: Blue;
+    background-color: #f4f7f6; 
+    color: #2c3e50;
 }
 
 h1 {
@@ -50,10 +50,14 @@ nav a {
     transition: transform 0.2s;
 }
 
+.li {
+    color: #2980b9;
+}
+
 
 .card h3 {
     font-family: Arial;
-    color: #e67e22;
+    color: #d35400;
     margin-top: 0;
 }
 
