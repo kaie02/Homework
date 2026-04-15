@@ -13,7 +13,7 @@ h1 {
     text-align: center;
 }
 
-.nav a {
+.nav {
     display: flex;
     justify-content: center; 
     gap: 20px; 
